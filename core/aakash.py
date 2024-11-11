@@ -13,3 +13,9 @@ elif x == y:
 
 name = str(input("What is your name ?: "))
 print(f"My name is {name}.")
+
+a = int (input("Enter a number : "))
+b = int (input("Enter another number : "))
+
+print(f"This is a answer {a+b}.")
+
