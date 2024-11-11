@@ -1,12 +1,12 @@
-print("******** Welcome to aakash **********")
+print("******** Welcome to Aakash Practice Session. **********")
 
-x = int (input ("1. What's X ?: "))
-y = int (input("2. what's Y ?: "))
+x = int(input("1. What's X ?: "))
+y = int(input("2. what's Y ?: "))
 
-if x < y :
-    print ("Ans = x is less than y")
+if x < y:
+    print("Ans = x is less than y")
 elif x > y:
-    print ("x is greater than y")
+    print("x is greater than y")
 elif x == y:
     print("x = y")
 
