@@ -3,7 +3,7 @@
 
 # print(f"{name} like {color}.")
 
-birth_year = int(input ( "Birth year: "))
+birth_year = int(input("Birth year: "))
 current_date = 2024
 age = current_date - birth_year
 print(f"you are {age} years old.")

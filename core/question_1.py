@@ -17,5 +17,6 @@ if to_check_age == given_age:
     print("yes you are 20 years old.")
 elif is_new_patiet == True:
     print("Yes He is a new patient.")
-else :
+else:
+
     print("you are not patient")
