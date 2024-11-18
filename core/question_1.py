@@ -15,8 +15,43 @@ else:
 
 if to_check_age == given_age:
     print("yes you are 20 years old.")
-elif is_new_patiet == True:
+else:
+    print("No your age is not 20")
+if is_new_patiet == True:
     print("Yes He is a new patient.")
 else:
 
     print("you are not patient")
+
+secret_number = 10
+guess_count = 1
+guess_limit = 3
+while guess_count <= 3:
+    guess = int(input("Guess: "))
+    guess_count += 1
+    if guess == secret_number:
+        print( "you won")
+        break
+else:
+    print("sorry you failed.")
+
+command = "" 
+while True:
+       command = input(">").lower()
+       if command == "start":
+          print("The car is started.")
+       elif command == "stop":
+           print("the car is stoped.")
+       elif command == "help":
+           
+           print("""
+start - to start the car
+stop - to stop the car
+exit - to exit 
+                 """)
+       elif command == exit:
+           print("The car is exit.")
+           break 
+       else:
+           print("sorry I don't understand.")
+           
