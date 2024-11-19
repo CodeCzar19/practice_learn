@@ -11,3 +11,9 @@ print(f"you are {age} years old.")
 your_weight = float(input("Enter your weight in pound? "))
 result = 0.453592 * your_weight
 print(f"This is your {result} in kg.")
+
+is_hot = False
+if is_hot:
+    print("it's a hot day")
+else:
+    print("enjoy your day")
