@@ -4,5 +4,9 @@
 3 --> git push origin your_branch_name
 
 ***** venv *******
-1 --> python3 -m venv venv
-2 --> source venv/bin/activated
+1 --> python3 -m venv venv - create virtual environment
+2 --> source venv/bin/activate - activate virtual environment
+
+
+******install requirements.txt ************
+1 --> pip install -r requirements.txt - Installs requirements for the project to run
